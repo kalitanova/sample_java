@@ -1,8 +1,12 @@
-import javax.swing.*;
-
-/**
- * Created by user1 on 19.02.15.
- */
-public class Main extends JOptionPane{
-
+import java.net.*;
+public class Main {
+    public static void main(String[] args) {
+        InetAddress myIP = null;
+        try {
+            myIP = InetAddress.getLocalHost();
+        } catch (UnknownHostException e) {
+            System.out.println(" ошибка доступа ->" + e);
+        }
+        System.out.println(" Мой IP ->" + myIP);
+    }
 }
