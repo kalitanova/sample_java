@@ -1,3 +1,3 @@
 # sample_java
 My first repository on GitHub
-I try learn Java
+I try learn Java1
